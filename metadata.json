@@ -1,0 +1,5 @@
+{
+  "name": "Image Format Converter",
+  "description": "A powerful in-browser tool to convert, resize, and compress images between popular formats like PNG, JPG, and WebP. Features drag & drop, batch processing, and ZIP downloads.",
+  "requestFramePermissions": []
+}
