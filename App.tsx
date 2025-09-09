@@ -12,6 +12,7 @@ import Blog from './components/Blog';
 import ArticlePage from './components/Article';
 import { DownloadIcon, ZipIcon, TrashIcon } from './components/icons';
 import { articles as blogArticles } from './blog/articles';
+import { Analytics } from '@vercel/analytics/react';
 
 // Make JSZip available from CDN
 declare const JSZip: any;
@@ -400,6 +401,7 @@ const App: React.FC = () => {
         {renderPage()}
       </main>
       <Footer setCurrentPage={setCurrentPage} />
+      <Analytics />
     </div>
   );
 };
